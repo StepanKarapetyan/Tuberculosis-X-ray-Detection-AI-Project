@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Diagnostic Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="main-title">Tuberculosis Diagnostic Tool</h2>
+        
+        <div class="image-wrapper">
+            <img id="display-image" src="https://via.placeholder.com/300?text=Upload+X-Ray" alt="X-ray Preview">
+        </div>
+
+        <input type="file" id="file-input" accept="image/*" style="display: none;">
+        
+        <div class="button-group">
+            <button id="change-btn" onclick="document.getElementById('file-input').click()">Choose Image</button>
+            <button id="predict-btn">Predict</button>
+            <button id="reset-btn" class="reset">Clear All</button>
+        </div>
+        
+        <div id="result">Waiting for image upload...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

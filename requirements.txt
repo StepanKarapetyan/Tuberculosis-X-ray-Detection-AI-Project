@@ -1,0 +1,9 @@
+flask
+flask-cors
+numpy
+pillow
+
+# Your `model (1).pkl` was created with Keras/TensorFlow.
+# `pickle.load()` requires these packages to be importable in the same environment.
+tensorflow
+keras
