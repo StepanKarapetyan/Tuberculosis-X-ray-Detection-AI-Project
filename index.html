@@ -12,8 +12,20 @@
     <div class="container">
         <h2 class="main-title">Tuberculosis Diagnostic Tool</h2>
         
-        <div class="image-wrapper">
-            <img id="display-image" src="https://via.placeholder.com/300?text=Upload+X-Ray" alt="X-ray Preview">
+        <div class="views-container">
+            <div class="image-box">
+                <span class="img-label">Original X-Ray</span>
+                <div class="image-wrapper">
+                    <img id="display-image" src="https://via.placeholder.com/300?text=Upload+X-Ray" alt="X-ray Preview">
+                </div>
+            </div>
+
+            <div class="image-box" id="gradcam-box" style="display: none;">
+                <span class="img-label">Grad-CAM Heatmap</span>
+                <div class="image-wrapper">
+                    <img id="gradcam-image" src="" alt="Grad-CAM Analysis">
+                </div>
+            </div>
         </div>
 
         <input type="file" id="file-input" accept="image/*" style="display: none;">

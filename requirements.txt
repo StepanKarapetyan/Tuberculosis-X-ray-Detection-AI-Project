@@ -7,3 +7,4 @@ pillow
 # `pickle.load()` requires these packages to be importable in the same environment.
 tensorflow
 keras
+opencv-python
