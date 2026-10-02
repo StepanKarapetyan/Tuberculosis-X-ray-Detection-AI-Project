@@ -1,4 +1,4 @@
-# Tuberculosis X-ray Detection AI Project 🫁🤖
+## Tuberculosis X-ray Detection AI Project 🫁🤖
 
 An Artificial Intelligence and Deep Learning application designed to detect Tuberculosis (TB) from Chest X-ray images using Computer Vision and a Web Interface.
 
@@ -94,3 +94,7 @@ Contributions, bug reports, and feature requests are welcome! Feel free to open 
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+## 📽️ Demo / Preview
+
+(https://github.com/user-attachments/assets/5a197b66-9aab-4263-9e60-a1f1b3284280)
